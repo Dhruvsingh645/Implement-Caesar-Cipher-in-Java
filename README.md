@@ -25,7 +25,7 @@ As we progress in this project, we'll not only gain a deeper understanding of th
 
 
 
-
+```
 public static String encrypt(String plainText, int shiftKey)
 {
     plainText = plainText.toLowerCase();
@@ -68,3 +68,4 @@ public static void main(String[] args)
     System.out.println(decrypt(encrypt(message, 3), 3));
     sc.close();
 }
+```
